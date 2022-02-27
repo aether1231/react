@@ -3,8 +3,11 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem></ExpenseItem>
+      <div>March 28th 2021</div>
+      <div>
+        <h2>Car Insurance</h2>
+        <div>211.21</div>
+      </div>
     </div>
   );
 }
