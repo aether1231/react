@@ -26,7 +26,7 @@ const App = () => {
   ];
 
   return (
-    <div class="expenses">
+    <div className="expenses">
       <h2>Let's get started!</h2>
       <Expenses data={expenses}></Expenses>
     </div>
