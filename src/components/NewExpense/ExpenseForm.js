@@ -33,7 +33,25 @@ const ExpenseForm = (props) => {
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate(new Date().toISOString().substring(0, 10));
+    setShowExpenseForm("Y");
   };
+
+  const [showExpenseForm, setShowExpenseForm] = useState("Y");
+  const toggleShowNewExpenseForm = (event) => {
+    setShowExpenseForm(showExpenseForm === "Y" ? "N" : "Y");
+  };
+
+  if (showExpenseForm === "N") {
+    return (
+      <form>
+        <div className="new-expense__show-new">
+          <button type="button" onClick={toggleShowNewExpenseForm}>
+            Add New Expense
+          </button>
+        </div>
+      </form>
+    );
+  }
 
   return (
     <form onSubmit={submitHandler}>
@@ -68,6 +86,9 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button type="button" onClick={toggleShowNewExpenseForm}>
+          Cancel
+        </button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
