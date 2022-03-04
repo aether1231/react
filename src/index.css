@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 html {
@@ -8,4 +9,5 @@ html {
 
 body {
   margin: 0;
+  background-color: rgb(37, 37, 37);
 }

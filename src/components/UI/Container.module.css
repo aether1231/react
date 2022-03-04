@@ -1,0 +1,8 @@
+.outer {
+  width: 60%;
+  margin-top: 5em;
+  margin-left: 20%;
+  padding: 1rem;
+  background-color: black;
+  overflow: auto;
+}

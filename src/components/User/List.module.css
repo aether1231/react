@@ -1,0 +1,13 @@
+.viewer {
+  margin-top: 1.5rem;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.list-item {
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 4px;
+  margin-top: 4px;
+}

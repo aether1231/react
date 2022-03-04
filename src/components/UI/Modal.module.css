@@ -1,0 +1,32 @@
+.modal {
+  width: 60%;
+  margin-top: 5em;
+  margin-left: 20%;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.modal-header {
+  font-size: 1rem;
+  background-color: darkmagenta;
+  color: white;
+  padding: 1em;
+}
+
+.modal-body {
+  font-size: 0.8rem;
+  padding: 1em;
+  background-color: white;
+  overflow: auto;
+}
+
+.modal-button {
+  margin-top: 1rem;
+  background-color: darkmagenta;
+  border-radius: 2px;
+  border: black;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  float: right;
+}
